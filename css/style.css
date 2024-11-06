@@ -33,6 +33,7 @@
 
 .text-center {
     text-align: center;
+    color: #fff;
 }
 
 .roboto-regular {
@@ -187,6 +188,7 @@ h2 {
 
 .btn-boh {
     background-color: #8ea1e1;
+    color: #fff;
 }
 
 .btn-black {
@@ -253,9 +255,43 @@ h3 {
     font-size: 30px;
 }
 
+
+
 /*------------------
         FOOTER
 ------------------*/
+h5 {
+    color: #7289da;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+h4 {
+    color: #7289da;
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+.col-vert-big p {
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+}
+
+p:nth-child(3) {
+    padding-top: 0;
+}
+
+p > i {
+    padding: 0 5px;
+}
+
+.wind-it {
+    /* background-image: url('/img/ita.png'); */
+    background-size: cover;
+    block-size: 15px;
+    padding-right: 10px;
+}
 
 .footer-top {
     background-color: #23272a;
@@ -263,7 +299,7 @@ h3 {
 }
 
 .footer-top > .container {
-    height: 630px;
+    /* height: 630px; */
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -271,17 +307,19 @@ h3 {
 }
 
 .col-vert-big {
-    background-color: #f08080;
+    /* background-color: #f08080; */
     width: 30%;
-    height: 570px;
-    border: dashed black 1px;
+    /* height: 570px; */
+    /* border: dashed black 1px; */
+    padding-top: 50px
 }
 
 .col-vert-small {
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     width: 20%;
-    height: 570px;
-    border: dashed white 1px;
+    /* height: 570px; */
+    /* border: dashed white 1px; */
+    padding-top: 50px;    
 }
 
 .footer-bot {
@@ -292,12 +330,21 @@ h3 {
 }
 
 .row-or {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     width: 1200px;
     height: 80px;
     align-items: center;
     display: flex;
     justify-content: space-between;
 
+}
+
+.list-footer {
+    display: block;
+}
+
+.list-footer li {
+    padding-top: 10px;
+    font-size: 14px;
 }
 
