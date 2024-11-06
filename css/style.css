@@ -41,27 +41,31 @@
     font-style: normal;
   }
   
-  .roboto-medium {
+.roboto-medium {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
   }
   
-  .roboto-bold {
+.roboto-bold {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
   }
 
-  ul {
+ul {
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+li {
     text-decoration: none;
     list-style: none;
   }
 
-  i {
-    padding-right: 10px;
+i {
+    margin-right: 10px;
   }
 /*------------------
         TYPO
@@ -140,6 +144,25 @@ p {
     padding-top: 30px;
     padding-bottom: 10px;
     line-height: 1.5;
+} 
+
+.col-small p , h2 {
+    color: #23272a;
+    display: flex;
+    padding-right: 140px;
+    text-align: start;
+
+}
+
+.col-small p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h2 {
+    padding-top: 30px;
+    text-align: start;
+    font-size: 40px;
 }
 
 .pclass {
@@ -162,6 +185,10 @@ p {
     background-color: #fff;
 }
 
+.btn-boh {
+    background-color: #8ea1e1;
+}
+
 .btn-black {
     background-color: #000;
     color: white;
@@ -171,6 +198,12 @@ p {
   justify-content: center;
   display: flex;
   gap: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 4px;
+    border: dashed black 1px;
 }
 
 /*------------------
@@ -188,21 +221,36 @@ section {
 }
 
 .col-big {
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
     min-height: 500px;
     width: 65%;
 }
 
 .col-small {
-    background-color: #ffc0cb;
     min-height: 500px;
     width: 35%;
 }
 
 .big-green {
-    background-color: #228b22;
-    min-width: 100%;
+    max-width: 50%;
     min-height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.big-green h2 , p {
+    justify-content: center;
+    /* padding: 30px 140px; */
+    color: #23272a;
+}
+
+h3 {
+    color: #23272a;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    font-size: 30px;
 }
 
 /*------------------
@@ -253,8 +301,3 @@ section {
 
 }
 
-button {
-    font-size: 18px;
-    padding: 4px;
-    border: dashed black 1px;
-}
