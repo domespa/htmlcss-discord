@@ -58,11 +58,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    list-style-type: none;
   }
 
 li {
+    list-style-type: none;
+  }
+
+  a {
     text-decoration: none;
-    list-style: none;
+    color: inherit;
   }
 
 i {
@@ -100,6 +106,8 @@ body {
 .logo {
     width: 20%;
     text-align: start;
+    display: flex;
+    align-items: center;
 }
 
 .login {
@@ -118,11 +126,12 @@ nav {
 .links {
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-.links ul {
     gap: 30px;
 }
+
+/* .links ul {
+    gap: 30px;
+} */
 
 .header-bot {
     background-image: url(../img/jumbo.png);
@@ -192,7 +201,7 @@ h2 {
 }
 
 .btn-black {
-    background-color: #000;
+    background-color: #23272a;
     color: white;
 }
 
@@ -255,7 +264,11 @@ h3 {
     font-size: 30px;
 }
 
-
+.stars-img {
+    background-image: url(/img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
 
 /*------------------
         FOOTER
