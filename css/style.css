@@ -1,0 +1,260 @@
+/*------------------
+        RESET
+------------------*/    
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+/*------------------
+        GENERAL
+------------------*/  
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-small {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.displayblock {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  i {
+    padding-right: 10px;
+  }
+/*------------------
+        TYPO
+------------------*/  
+h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+body {
+    font-family: "Roboto", serif;
+    color: #fff;
+}
+/*------------------
+        HEADER
+------------------*/
+
+.header-top {
+    background-color: #3161e0;
+    padding: 10px;  
+    justify-content: center;
+    display: flex;
+
+}
+
+.header-top > .container { 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    width: 20%;
+    text-align: start;
+}
+
+.login {
+    width: 20%;
+    text-align: end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links ul {
+    gap: 30px;
+}
+
+.header-bot {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bot > .container {
+    min-height: 400px;
+    max-width: 900px;
+}
+
+p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.pclass {
+    max-width: 800px;
+}
+
+/*------------------
+        BUTTONS
+------------------*/
+
+.btn-top {
+    background-color: transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-white {
+    background-color: #fff;
+}
+
+.btn-black {
+    background-color: #000;
+    color: white;
+}
+
+.butts {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+/*------------------
+        SECTIONS
+------------------*/
+section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.sect-grey {
+    background-color: #d3d3d3;
+
+}
+
+.col-big {
+    background-color: #1e90ff;
+    min-height: 500px;
+    width: 65%;
+}
+
+.col-small {
+    background-color: #ffc0cb;
+    min-height: 500px;
+    width: 35%;
+}
+
+.big-green {
+    background-color: #228b22;
+    min-width: 100%;
+    min-height: 900px;
+}
+
+/*------------------
+        FOOTER
+------------------*/
+
+.footer-top {
+    background-color: #23272a;
+    display: flex;
+}
+
+.footer-top > .container {
+    height: 630px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+}
+
+.col-vert-big {
+    background-color: #f08080;
+    width: 30%;
+    height: 570px;
+    border: dashed black 1px;
+}
+
+.col-vert-small {
+    background-color: #20b2aa;
+    width: 20%;
+    height: 570px;
+    border: dashed white 1px;
+}
+
+.footer-bot {
+    background-color: #23272a;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-or {
+    background-color: #7fffd4;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    font-size: 18px;
+    padding: 4px;
+    border: dashed black 1px;
+}
