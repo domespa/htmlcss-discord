@@ -265,7 +265,7 @@ h3 {
 }
 
 .stars-img {
-    background-image: url(/img/stars.svg);
+    background-image: url(./img/stars.svg);
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -300,7 +300,7 @@ p > i {
 }
 
 .wind-it {
-    /* background-image: url('/img/ita.png'); */
+    /* background-image: url('./img/ita.png'); */
     background-size: cover;
     block-size: 15px;
     padding-right: 10px;
