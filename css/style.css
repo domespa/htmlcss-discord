@@ -265,7 +265,7 @@ h3 {
 }
 
 .stars-img {
-    background-image: url(./img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-position: top;
     background-repeat: no-repeat;
 }
